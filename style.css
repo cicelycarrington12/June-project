@@ -30,7 +30,7 @@ body {
 }
 
 a {
-    display; inline;
+    display: inline;
     text-decoration: none;
 }
 img {
