@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Inter, system-ui;
-  color: #243e63
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
+    color: #243e63;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-.row{
+.row {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -26,20 +26,23 @@ body {
 }
 
 .container {
-    padding: 96px;
+    padding: 96px 0;
 }
 
 a {
     display: inline;
     text-decoration: none;
+
 }
+
 img {
     width: 100%;
 }
 
-h1 { 
-    font-size: 18px;
-    line-height: 1.5;
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
 }
 
 .purple {
